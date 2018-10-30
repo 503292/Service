@@ -12,7 +12,6 @@ public class ServiceServerImpl extends UnicastRemoteObject implements ServiceSer
 
 	protected ServiceServerImpl() throws RemoteException {
 		setUpServices();
-		// TODO Auto-generated constructor stub
 	}
 
 	private void setUpServices() {
