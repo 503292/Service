@@ -7,11 +7,11 @@ import java.security.Provider.Service;
 import java.util.HashMap;
 
 public class ServiceServerImpl extends UnicastRemoteObject implements ServiceServer {
-	private static final long serialVersionUID = 1L;
+	
 	HashMap serviceList;
 
 	protected ServiceServerImpl() throws RemoteException {
-		super();
+		setUpServices();
 		// TODO Auto-generated constructor stub
 	}
 
