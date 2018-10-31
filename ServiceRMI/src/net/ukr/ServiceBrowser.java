@@ -34,7 +34,7 @@ public class ServiceBrowser {
 
 	}
 
-	public void loadService(Object serviceSelection) {
+	void loadService(Object serviceSelection) {
 		try {
 			Service svc = (Service) server.getService(serviceSelection);
 
